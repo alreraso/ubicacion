@@ -5,7 +5,7 @@ from direccion.views import DireccionDetail,DireccionList
 
 urlpatterns = [
     path('direcciones/', DireccionList.as_view()),
-    path('direccion/<int:pk>', DireccionDetail.as_view()),
+    path('direcciones/<int:pk>', DireccionDetail.as_view(),name="putubicacion"),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
