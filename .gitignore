@@ -1,4 +1,2 @@
-./ubucacion/direccion/migrations/*
-.devcontainer
-./ubicacion/db.sqlite3
-./ubicacion/ubicacion/settings_ubicacion.py
+db.sqlite3
+ubicacion/settings_ubicacion.py
